@@ -195,14 +195,35 @@ Once all components are installed and configured:
 
 ## Explanation
 This workflow uses ControlNet to detect the images structure and Stable Diffusion 1.5 to create images. It uses Canny Edges to represent the outline of the image. 
+
 Van Gogh Style is taken from Painting LoRA which is trained using Van Gogh Paintings. 
+
 For positive prompt it uses WD14 Tagger and creates tags from image and appends keywords to be able to use Painting LoRA effectively.
 Some negative prompts are also provided to prevent the model to produce meaningless and low quality outputs.
+
 Some images may need preprocessing steps. For this purpose a CustomPreprocess module is developed. The module takes an image as input and resize it to fit 512 pixels that Stable Diffusion model performs best.
 It also has options to appply padding (by adding white pixels around to make the image 512x512), apply equalization (to equalize the intensity levels of the image) and apply Gaussian blur.
 This preprocessing component outputs a scale factor for resizing the processed image back to the original resolution. It is used for Upscale Image component to resize the image back.
+
 Some steps use PreviewImage components to track the progress alongside the workflow. And the final image is saved under *output* folder.
 
 ## Sample Outputs
 
+**Test-2**
 ![Input](testImages/test2.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00070_.png?raw=true "Test-2")
+
+
+**Test-5**
+![Input](testImages/test5.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00037_.png?raw=true "Test-2")
+
+
+**Test-8**
+![Input](testImages/test8.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00045_.png?raw=true "Test-2")
+
+
+**Test-7**
+![Input](testImages/test7.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00041_.png?raw=true "Test-2")
+
+
+**Test-13**
+![Input](testImages/test13.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00086_.png?raw=true "Test-2")
