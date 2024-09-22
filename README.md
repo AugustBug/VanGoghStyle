@@ -210,24 +210,24 @@ Some steps use PreviewImage components to track the progress alongside the workf
 ## Sample Outputs
 
 **Test-2**
-![Input](testImages/test2.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00070_.png?raw=true "Test-2")
+![Input](testImages/test2.jpg?raw=true "Test-2")  ![Input](output/VanGoghStyle_00070_.png?raw=true "Test-2")
 
 
 **Test-5**
-![Input](testImages/test5.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00037_.png?raw=true "Test-2")
+![Input](testImages/test5.jpeg?raw=true "Test-2")  ![Input](output/VanGoghStyle_00037_.png?raw=true "Test-2")
 
 
 **Test-8**
-![Input](testImages/test8.jpeg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00045_.png?raw=true "Test-2")
+![Input](testImages/test8.jpg?raw=true "Test-2")  ![Input](output/VanGoghStyle_00045_.png?raw=true "Test-2")
 
 
 **Test-7**
-![Input](testImages/test7.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00041_.png?raw=true "Test-2")
+![Input](testImages/test7.jpg?raw=true "Test-2")  ![Input](output/VanGoghStyle_00041_.png?raw=true "Test-2")
 
 
 **Test-13**
-![Input](testImages/test13.jpg?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00086_.png?raw=true "Test-2")
+![Input](testImages/test13.jpg?raw=true "Test-2")  ![Input](output/VanGoghStyle_00086_.png?raw=true "Test-2")
 
 
-**Test-13**
-![Input](testImages/test6.png?raw=true "Test-2") >> ![Input](output/VanGoghStyle_00063_.png?raw=true "Test-2")
+**Test-6**
+![Input](testImages/test6.png?raw=true "Test-2")  ![Input](output/VanGoghStyle_00063_.png?raw=true "Test-2")
